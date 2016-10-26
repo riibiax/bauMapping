@@ -1,0 +1,16 @@
+ofxAssimpModelLoader
+ofxBoids
+ofxDelaunay
+ofxFastFboReader
+ofxMSACore
+ofxMSAOpenCL
+ofxMSAPerlin
+ofxMSAPingPong
+ofxOpenCv
+ofxOpenSteer
+ofxTimeMeasurements
+ofxTriangle
+ofxUI
+ofxVectorGraphics
+ofxVideoRecorder
+ofxXmlSettings
