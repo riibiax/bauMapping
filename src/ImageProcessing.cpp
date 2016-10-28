@@ -218,9 +218,9 @@ void ImageProcessing::saveImage(bool image32B){
     else{
         m_colorResult=m_outputImage;
     }
-    //unsigned char * pixels = m_colorResult.getPixels();
-    //m_result.setFromPixels(pixels, m_width,m_height, OF_IMAGE_COLOR);
-    //m_result.save("result-"+ofToString(m_counter)+".png");
+    ofPixels pixels = m_colorResult.getPixels();
+    m_result.setFromPixels(pixels);
+    m_result.save("result-"+ofToString(m_counter)+".png");
     m_counter++;
 }
 
